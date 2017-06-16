@@ -1,0 +1,8 @@
+for record in employee:
+    if record.category_ids.name == 'Teaching' and record.local_goverment_ared_id in ["ISOKO SOUTH", "UGHELLI NORTH"]:
+        if record.local_goverment_ared_id == 'ISOKO SOUTH':
+            result = -(600)
+        elif record.local_goverment_ared_id == 'UGHELLI NORTH':
+            result = -(100)
+        else:
+            result = - (inputs.NUUT.amount)
